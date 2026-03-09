@@ -182,10 +182,12 @@
     /* ═══ Services ═══ */
     .services{background:var(--mc-surface)}
     .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
-    .svc-card{background:var(--mc-card);padding:40px 32px;border:1px solid var(--mc-border);border-radius:8px;transition:all 0.5s cubic-bezier(.23,1,.32,1);position:relative;overflow:hidden}
+    .svc-card{background:var(--mc-card);border:1px solid var(--mc-border);border-radius:8px;transition:all 0.5s cubic-bezier(.23,1,.32,1);position:relative;overflow:hidden}
     .svc-card::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--mc-accent),var(--mc-accent-dark));transform:scaleX(0);transform-origin:left;transition:transform 0.5s}
     .svc-card:hover::after{transform:scaleX(1)}
     .svc-card:hover{transform:translateY(-4px);box-shadow:0 8px 28px rgba(0,0,0,0.3)}
+    .svc-card .svc-img{width:100%;height:200px;object-fit:cover;display:block}
+    .svc-card .svc-body{padding:28px 28px 32px}
     .svc-card h3{font-family:var(--serif);font-size:1.1rem;color:var(--mc-accent-light);margin-bottom:6px;font-weight:600}
     .svc-card .svc-en{font-size:0.78rem;color:var(--mc-muted);letter-spacing:0.05em;margin-bottom:12px}
     .svc-card p{font-size:0.9rem;color:var(--mc-muted);line-height:1.85}
@@ -404,24 +406,36 @@
 
     <div class="svc-grid stagger">
       <div class="svc-card mc-reveal" style="--i:0">
-        <h3>堂飲</h3>
-        <div class="svc-en">Dine-in</div>
-        <p>在店內享受精心沖煮的咖啡。坐下來，放慢節奏，品嚐一杯用心調製的好咖啡，感受澳門靜巷中的悠閒時光。</p>
+        <img src="images/svc-dinein.png" alt="Mind Cafe 堂飲" class="svc-img" loading="lazy" width="600" height="400">
+        <div class="svc-body">
+          <h3>堂飲</h3>
+          <div class="svc-en">Dine-in</div>
+          <p>在店內享受精心沖煮的咖啡。坐下來，放慢節奏，品嚐一杯用心調製的好咖啡，感受澳門靜巷中的悠閒時光。</p>
+        </div>
       </div>
       <div class="svc-card mc-reveal" style="--i:1">
-        <h3>到店取貨</h3>
-        <div class="svc-en">Pickup</div>
-        <p>趕時間也不想將就？提前聯絡我們，到店即可取走新鮮沖煮的咖啡，方便快捷不等待。</p>
+        <img src="images/latte-art.png" alt="Mind Cafe 到店取貨" class="svc-img" loading="lazy" width="600" height="400">
+        <div class="svc-body">
+          <h3>到店取貨</h3>
+          <div class="svc-en">Pickup</div>
+          <p>趕時間也不想將就？提前聯絡我們，到店即可取走新鮮沖煮的咖啡，方便快捷不等待。</p>
+        </div>
       </div>
       <div class="svc-card mc-reveal" style="--i:2">
-        <h3>咖啡周邊 & 設計</h3>
-        <div class="svc-en">Peripherals & Design</div>
-        <p>精心挑選的咖啡器具、配件與設計周邊商品。每一件都經過我們的美學篩選，讓咖啡融入生活的每個角落。</p>
+        <img src="images/peripherals.png" alt="Mind Cafe 咖啡周邊與設計" class="svc-img" loading="lazy" width="600" height="400">
+        <div class="svc-body">
+          <h3>咖啡周邊 & 設計</h3>
+          <div class="svc-en">Peripherals & Design</div>
+          <p>精心挑選的咖啡器具、配件與設計周邊商品。每一件都經過我們的美學篩選，讓咖啡融入生活的每個角落。</p>
+        </div>
       </div>
       <div class="svc-card mc-reveal" style="--i:3">
-        <h3>咖啡豆零售</h3>
-        <div class="svc-en">Retail</div>
-        <p>把自家烘焙的好咖啡帶回家。我們提供精選咖啡豆零售，讓你在家也能沖出心目中的那杯咖啡。</p>
+        <img src="images/roasted-beans.png" alt="Mind Cafe 咖啡豆零售" class="svc-img" loading="lazy" width="600" height="400">
+        <div class="svc-body">
+          <h3>咖啡豆零售</h3>
+          <div class="svc-en">Retail</div>
+          <p>把自家烘焙的好咖啡帶回家。我們提供精選咖啡豆零售，讓你在家也能沖出心目中的那杯咖啡。</p>
+        </div>
       </div>
     </div>
   </div>
