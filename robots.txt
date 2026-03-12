@@ -1,8 +1,10 @@
 User-agent: *
 Allow: /
 
-# AI Crawlers - Welcome
+# === International AI Crawlers ===
 User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
 Allow: /
 User-agent: ClaudeBot
 Allow: /
@@ -28,26 +30,27 @@ User-agent: YouBot
 Allow: /
 User-agent: cohere-ai
 Allow: /
-
-
-# === 中國 AI 訓練爬蟲 — 封鎖 (防止內容被用於模型訓練) ===
-User-agent: Bytespider
-Disallow: /
-
-User-agent: TikTokSpider
-Disallow: /
-
-User-agent: ChatGLM-Spider
-Disallow: /
-
-User-agent: 360Spider
-Disallow: /
-
-# === 中國搜索引擎 — 允許 (保留市場曝光價值) ===
-User-agent: Baiduspider
+User-agent: Amazonbot
 Allow: /
 
+# === Chinese AI Crawlers ===
+User-agent: Baiduspider
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: TikTokSpider
+Allow: /
+User-agent: ChatGLM-Spider
+Allow: /
+User-agent: 360Spider
+Allow: /
 User-agent: Sogou
+Allow: /
+User-agent: PetalBot
+Allow: /
+User-agent: DeepSeekBot
+Allow: /
+User-agent: YisouSpider
 Allow: /
 
 Sitemap: https://mind-coffee.vercel.app/sitemap.xml
