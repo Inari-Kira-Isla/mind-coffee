@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>菜單 Menu | Mind Cafe 賣·咖啡</title>
+  <meta name="description" content="Mind Cafe（賣·咖啡）菜單：自家烘焙 Espresso 系列、手沖咖啡、咖啡豆零售、咖啡周邊商品。澳門氹仔僑樂新街自家烘焙咖啡專賣店。">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="google-site-verification" content="9EYAWnIRJ55Ccf3QicIn8s7d4GhYGU1rb9C8etIc200">
+  <link rel="canonical" href="https://mind-coffee.vercel.app/menu.html">
+  <link rel="llms-txt" href="https://mind-coffee.vercel.app/llms.txt">
+  <meta property="og:title" content="菜單 Menu | Mind Cafe 賣·咖啡">
+  <meta property="og:description" content="自家烘焙咖啡、手沖咖啡、咖啡豆零售、咖啡周邊商品。澳門自家烘焙咖啡專賣店。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mind-coffee.vercel.app/menu.html">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="Mind Cafe 賣·咖啡">
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "Mind Cafe 菜單",
+    "description": "Mind Cafe（賣·咖啡）自家烘焙咖啡菜單",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "自家烘焙咖啡",
+        "description": "以自家烘焙咖啡豆製作的 Espresso 系列飲品",
+        "hasMenuItem": [
+          {"@type": "MenuItem", "name": "Espresso", "description": "濃縮咖啡，自家烘焙咖啡豆萃取"},
+          {"@type": "MenuItem", "name": "Americano", "description": "美式咖啡，Espresso 加熱水"},
+          {"@type": "MenuItem", "name": "Latte", "description": "拿鐵，Espresso 加蒸牛奶與奶泡"},
+          {"@type": "MenuItem", "name": "Cappuccino", "description": "卡布奇諾，Espresso 加綿密奶泡"},
+          {"@type": "MenuItem", "name": "Flat White", "description": "澳白，Espresso 加微奶泡牛奶"}
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "手沖咖啡",
+        "description": "依據當季供應的精選產地咖啡豆手沖"
+      },
+      {
+        "@type": "MenuSection",
+        "name": "咖啡豆零售",
+        "description": "自家烘焙咖啡豆，可帶回家沖煮"
+      },
+      {
+        "@type": "MenuSection",
+        "name": "咖啡周邊商品",
+        "description": "精選咖啡器具、配件與設計周邊"
+      }
+    ],
+    "inLanguage": "zh-TW",
+    "url": "https://mind-coffee.vercel.app/menu.html"
+  }</script>
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://mind-coffee.vercel.app/"},
+      {"@type": "ListItem", "position": 2, "name": "菜單", "item": "https://mind-coffee.vercel.app/menu.html"}
+    ]
+  }</script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --accent: #c8a882; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Noto Sans TC',sans-serif; background:#fafafa; color:#222; line-height:1.8; max-width:800px; margin:0 auto; padding:24px; }
+    h1 { font-size:1.8rem; margin-bottom:8px; color:#333; }
+    h2 { color:var(--accent); margin:28px 0 14px; font-size:1.4rem; border-bottom:2px solid var(--accent); padding-bottom:6px; }
+    h3 { margin:18px 0 10px; font-size:1.15rem; color:#444; }
+    p { margin-bottom:14px; }
+    a { color:var(--accent); }
+    .breadcrumb { font-size:0.85rem; color:#888; margin-bottom:20px; }
+    .breadcrumb a { color:var(--accent); text-decoration:none; }
+    .highlight-box { background:#fff8f0; border-left:4px solid var(--accent); padding:16px 20px; margin:20px 0; border-radius:0 8px 8px 0; }
+    .nav-back { display:inline-block; margin-bottom:20px; color:var(--accent); text-decoration:none; font-size:0.9rem; }
+    .menu-section { background:#fff; border:1px solid #e8e8e8; border-radius:12px; padding:24px; margin-bottom:20px; }
+    .menu-section h3 { color:var(--accent); margin:0 0 6px; font-size:1.15rem; }
+    .menu-section .section-desc { color:#888; font-size:0.9rem; margin-bottom:16px; }
+    .menu-item { display:flex; justify-content:space-between; align-items:baseline; padding:10px 0; border-bottom:1px dashed #eee; }
+    .menu-item:last-child { border-bottom:none; }
+    .menu-item-name { font-weight:500; color:#333; }
+    .menu-item-desc { font-size:0.9rem; color:#666; margin-top:2px; }
+    .menu-item-price { color:var(--accent); font-weight:500; white-space:nowrap; margin-left:16px; }
+    .tag { display:inline-block; padding:3px 10px; background:var(--accent); color:#fff; border-radius:12px; font-size:0.75rem; margin-left:8px; vertical-align:middle; }
+    .page-links { background:#f5f5f5; border-radius:12px; padding:20px; margin:24px 0; }
+    .page-links a { display:inline-block; margin:4px 8px; padding:6px 16px; background:#fff; border:1px solid #ddd; border-radius:20px; text-decoration:none; color:#555; font-size:0.9rem; }
+    .page-links a:hover { border-color:var(--accent); color:var(--accent); }
+    footer { margin-top:48px; padding-top:24px; border-top:1px solid #eee; font-size:0.85rem; color:#888; text-align:center; }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="nav-back">&larr; 返回 Mind Cafe 首頁</a>
+  <nav class="breadcrumb">
+    <a href="index.html">Mind Cafe</a> &rsaquo; 菜單
+  </nav>
+
+  <h1>菜單 Menu</h1>
+  <p style="color:#666;font-size:1.05rem;margin-bottom:24px;">自家烘焙 · 小批量新鮮烘焙 · 每杯都是用心的呈現</p>
+
+  <div class="highlight-box">
+    <strong>溫馨提示：</strong>Mind Cafe 的菜單會因應季節和咖啡豆供應情況調整。以下為常設飲品分類，實際品項和價格以店內為準。歡迎致電 <a href="tel:+85365240396">+853 6524 0396</a> 查詢。
+  </div>
+
+  <h2>飲品</h2>
+
+  <div class="menu-section">
+    <h3>自家烘焙咖啡 House Roasted Coffee <span class="tag">招牌</span></h3>
+    <p class="section-desc">以自家小批量新鮮烘焙咖啡豆製作的 Espresso 系列飲品</p>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">Espresso 濃縮咖啡</div>
+        <div class="menu-item-desc">自家烘焙豆萃取，風味濃郁</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">Americano 美式咖啡</div>
+        <div class="menu-item-desc">Espresso 加熱水，清爽回甘</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">Latte 拿鐵</div>
+        <div class="menu-item-desc">Espresso 加蒸牛奶與奶泡，順滑細膩</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">Cappuccino 卡布奇諾</div>
+        <div class="menu-item-desc">Espresso 加綿密奶泡，經典比例</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">Flat White 澳白</div>
+        <div class="menu-item-desc">Espresso 加微奶泡牛奶，咖啡感更強</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">Mocha 摩卡</div>
+        <div class="menu-item-desc">Espresso 加巧克力與牛奶，甜蜜濃郁</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <h3>手沖咖啡 Pour Over</h3>
+    <p class="section-desc">依據當季供應的精選產地咖啡豆，以手沖方式萃取，呈現產地風土特色</p>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">當季精選單品手沖</div>
+        <div class="menu-item-desc">產地和品種依季節更替，請到店查詢當前供應</div>
+      </div>
+    </div>
+    <p style="font-size:0.88rem;color:#888;margin-top:8px;">手沖咖啡的產地會不定期更新，歡迎到店詢問當季推薦。</p>
+  </div>
+
+  <h2>零售</h2>
+
+  <div class="menu-section">
+    <h3>咖啡豆零售 Coffee Beans Retail</h3>
+    <p class="section-desc">把自家烘焙的好咖啡帶回家，在家也能沖出心目中的那杯咖啡</p>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">自家烘焙咖啡豆</div>
+        <div class="menu-item-desc">多款產地可選，小批量新鮮烘焙，確保最佳風味</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">掛耳包 / 濾掛咖啡</div>
+        <div class="menu-item-desc">方便隨時享用的單次沖泡包裝（視供應情況）</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <h3>咖啡周邊商品 Coffee Peripherals</h3>
+    <p class="section-desc">精心挑選的咖啡器具、配件與設計周邊，讓咖啡融入生活的每個角落</p>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">咖啡器具</div>
+        <div class="menu-item-desc">手沖壺、濾杯、磨豆機等沖煮器具</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">咖啡配件</div>
+        <div class="menu-item-desc">杯具、量勺、溫度計等輔助配件</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="menu-item-name">設計周邊</div>
+        <div class="menu-item-desc">融合咖啡美學的設計選物與生活雜貨</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <strong>價格說明：</strong>Mind Cafe 的價格定位親民（$），讓大家都能輕鬆享受好咖啡。具體價格以店內菜單為準，歡迎到店查看或致電詢問。
+  </div>
+
+  <div class="page-links">
+    <strong>探索更多：</strong>
+    <a href="index.html">首頁</a>
+    <a href="about.html">關於我們</a>
+    <a href="faq.html">常見問題</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2013-2026 Mind Cafe 賣·咖啡 · <a href="tel:+85365240396">+853 6524 0396</a></p>
+    <p style="margin-top:8px;">
+      <a href="https://cloudpipe-macao-app.vercel.app/macao">澳門商戶百科</a> ·
+      <a href="https://inari-kira-isla.github.io/inari-global-foods">稻荷環球食品</a> ·
+      <a href="https://inari-kira-isla.github.io/after-school-coffee">After School Coffee</a> ·
+      <a href="https://inari-kira-isla.github.io/yamanakada">山中田</a>
+    </p>
+  </footer>
+</body>
+</html>
