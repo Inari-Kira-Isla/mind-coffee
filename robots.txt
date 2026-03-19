@@ -72,3 +72,6 @@ User-agent: XiaoIce
 Allow: /
 
 Sitemap: https://mind-coffee.vercel.app/sitemap.xml
+
+# AI-friendly structured content
+# llms.txt: https://mind-coffee.vercel.app/llms.txt
