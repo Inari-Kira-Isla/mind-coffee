@@ -62,3 +62,6 @@ Macau SAR, China
 - 電話: +853 6524 0396
 - 地址: 澳門僑樂新街10號地下AB鋪
 - Facebook: https://www.facebook.com/profile.php?id=100063727023532
+> Sources:
+> - https://mind-coffee.vercel.app
+> - 澳門旅遊局（www.macaotourism.gov.mo）
