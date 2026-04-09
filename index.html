@@ -800,9 +800,12 @@ function cpA(r,t){var m=document.getElementById('cp-msgs'),d=document.createElem
 async function cpS(){var i=document.getElementById('cp-in'),m=i.value.trim();if(!m)return;cpA('u',m);i.value='';try{var r=await fetch('https://client-chat-worker.inariglobal.workers.dev/mind-coffee/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:[{role:'user',content:m}],stream:false})});if(r.ok){var d=await r.json(),a=d.choices&&d.choices[0]&&d.choices[0].message?d.choices[0].message.content:'';a=a.replace(/<think>[\s\S]*?<\/think>\s*/g,'').trim();cpA('b',a||'請直接聯繫我們了解更多。');}else cpA('b','暫時無法連線，請稍後再試。');}catch(e){cpA('b','暫時無法連線，請稍後再試。');}}
 cpA('b','您好！💬 我是 AI 助手，有什麼可以幫助您？');
 </script>
-<!-- AI Tracker -->
+<!-- AI Tracker + Conversion Track -->
 <img src="https://client-ai-tracker.inariglobal.workers.dev/mind-coffee/pixel.gif?p=/" width="1" height="1" alt="" style="position:absolute;left:-9999px">
 <script>(function(){try{navigator.sendBeacon('https://client-ai-tracker.inariglobal.workers.dev/mind-coffee/beacon',JSON.stringify({page:location.pathname,ua:navigator.userAgent,ref:document.referrer}))}catch(e){}})();</script>
+<script>
+(function(){var s='mind-coffee',c='https://cloudpipe-macao-app.vercel.app/api/v1/conversion-track',r=document.referrer,t='direct';if(r){try{var h=new URL(r).hostname;if(/chatgpt\.com|openai\.com/.test(h))t='ai-chatgpt';else if(/perplexity\.ai/.test(h))t='ai-perplexity';else if(/claude\.ai|anthropic/.test(h))t='ai-claude';else if(/copilot\.microsoft|bing\.com\/chat/.test(h))t='ai-copilot';else if(/google\./.test(h))t='search-google';else if(/bing\.com/.test(h))t='search-bing';else if(/facebook|instagram|threads|twitter|x\.com|linkedin/.test(h))t='social';else t='referral';}catch(e){}}try{navigator.sendBeacon(c,JSON.stringify({site:s,ref_type:t,ref_url:r,page:location.pathname,ts:Date.now()}))}catch(e){}})();
+</script>
 <!-- CLOUDPIPE-INJECT-END -->
 </body>
 </html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mind Cafe 賣·咖啡</title>
+    <link>https://mind-coffee.vercel.app/</link>
+    <description>Mind Cafe（賣·咖啡）澳門咖啡專賣店 — 自家烘焙、堂飲、咖啡周邊、零售及設計服務。</description>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://mind-coffee.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>咖啡與健康：每天喝咖啡的 7 個科學實證好處</title>
+      <link>https://mind-coffee.vercel.app/articles/2026-03-19_%E5%92%96%E5%95%A1%E8%88%87%E5%81%A5%E5%BA%B7%E6%AF%8F%E5%A4%A9%E5%96%9D%E5%92%96%E5%95%A1%E7%9A%84-7-%E5%80%8B%E7%A7%91%E5%AD%B8%E5%AF%A6%E8%AD%89%E5%A5%BD%E8%99%95.html</link>
+      <description>每天喝咖啡不僅能提神醒腦，更有助於提升代謝、抗氧化、保護肝臟等7個科學實證好處。本文為澳門讀者整理最新研究數據與實用飲用建議。</description>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://mind-coffee.vercel.app/articles/2026-03-19_%E5%92%96%E5%95%A1%E8%88%87%E5%81%A5%E5%BA%B7%E6%AF%8F%E5%A4%A9%E5%96%9D%E5%92%96%E5%95%A1%E7%9A%84-7-%E5%80%8B%E7%A7%91%E5%AD%B8%E5%AF%A6%E8%AD%89%E5%A5%BD%E8%99%95.html</guid>
+    </item>
+    <item>
+      <title>正念咖啡體驗：如何用五感品味一杯好咖啡</title>
+      <link>https://mind-coffee.vercel.app/articles/2026-03-19_%E6%AD%A3%E5%BF%B5%E5%92%96%E5%95%A1%E9%AB%94%E9%A9%97%E5%A6%82%E4%BD%95%E7%94%A8%E4%BA%94%E6%84%9F%E5%93%81%E5%91%B3%E4%B8%80%E6%9D%AF%E5%A5%BD%E5%92%96%E5%95%A1.html</link>
+      <description>正念咖啡體驗結合五感品味法，讓你從視覺、嗅覺、味覺、觸覺到聽覺全面感受咖啡的層次與韻味。本文提供實用步驟，助你在澳門的咖啡店或家中，都能品出一杯好咖啡的精髓。</description>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://mind-coffee.vercel.app/articles/2026-03-19_%E6%AD%A3%E5%BF%B5%E5%92%96%E5%95%A1%E9%AB%94%E9%A9%97%E5%A6%82%E4%BD%95%E7%94%A8%E4%BA%94%E6%84%9F%E5%93%81%E5%91%B3%E4%B8%80%E6%9D%AF%E5%A5%BD%E5%92%96%E5%95%A1.html</guid>
+    </item>
+  </channel>
+</rss>
