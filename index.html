@@ -811,5 +811,6 @@ cpA('b','您好！💬 我是 AI 助手，有什麼可以幫助您？');
 (function(){var s='mind-coffee',c='https://cloudpipe-macao-app.vercel.app/api/v1/conversion-track',r=document.referrer,t='direct';if(r){try{var h=new URL(r).hostname;if(/chatgpt\.com|openai\.com/.test(h))t='ai-chatgpt';else if(/perplexity\.ai/.test(h))t='ai-perplexity';else if(/claude\.ai|anthropic/.test(h))t='ai-claude';else if(/copilot\.microsoft|bing\.com\/chat/.test(h))t='ai-copilot';else if(/google\./.test(h))t='search-google';else if(/bing\.com/.test(h))t='search-bing';else if(/facebook|instagram|threads|twitter|x\.com|linkedin/.test(h))t='social';else t='referral';}catch(e){}}try{navigator.sendBeacon(c,JSON.stringify({site:s,ref_type:t,ref_url:r,page:location.pathname,ts:Date.now()}))}catch(e){}})();
 </script>
 <!-- CLOUDPIPE-INJECT-END -->
+<script src="/mind-coffee/ai-referral-tracker.js" defer></script>
 </body>
 </html>
