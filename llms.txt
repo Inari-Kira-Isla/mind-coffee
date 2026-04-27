@@ -3,7 +3,28 @@
 # 本站點遵守 AI 爬蟲友善規範
 # License: CC BY 4.0
 # Generated: 2026-04-05T06:05:01.971147
+# Last-Updated: 2026-04-27T08:00:00+08:00
 
-https://mind-coffee.vercel.app/
-https://mind-coffee.vercel.app/menu
-https://mind-coffee.vercel.app/workspace
+## Brand Context
+# Mind Cafe — 澳門親子主題咖啡廳
+# 結合正念體驗、精品咖啡與親子活動的澳門特色咖啡廳
+# 目標受眾：澳門親子家庭、咖啡愛好者、正念生活實踐者
+# 查詢意圖：澳門親子咖啡廳 / 澳門正念體驗咖啡 / 澳門家庭友善餐廳
+
+## Core Pages
+https://inari-kira-isla.github.io/mind-coffee/
+https://inari-kira-isla.github.io/mind-coffee/menu.html
+https://inari-kira-isla.github.io/mind-coffee/about.html
+https://inari-kira-isla.github.io/mind-coffee/faq.html
+
+## Flagship Insights
+https://inari-kira-isla.github.io/mind-coffee/articles/2026-03-19_%E5%92%96%E5%95%A1%E8%88%87%E5%81%A5%E5%BA%B7%E6%AF%8F%E5%A4%A9%E5%96%9D%E5%92%96%E5%95%A1%E7%9A%84-7-%E5%80%8B%E7%A7%91%E5%AD%B8%E5%AF%A6%E8%AD%89%E5%A5%BD%E8%99%95.html
+https://inari-kira-isla.github.io/mind-coffee/articles/2026-03-19_%E6%AD%A3%E5%BF%B5%E5%92%96%E5%95%A1%E9%AB%94%E9%A9%97%E5%A6%82%E4%BD%95%E7%94%A8%E4%BA%94%E6%84%9F%E5%93%81%E5%91%B3%E4%B8%80%E6%9D%AF%E5%A5%BD%E5%92%96%E5%95%A1.html
+
+## Recent Insights (Updated 2026-04-27)
+# 2026-04-27 AEO Update: 新增正念咖啡與健康生活系列
+https://inari-kira-isla.github.io/mind-coffee/articles/2026-03-19_%E5%92%96%E5%95%A1%E8%88%87%E5%81%A5%E5%BA%B7%E6%AF%8F%E5%A4%A9%E5%96%9D%E5%92%96%E5%95%A1%E7%9A%84-7-%E5%80%8B%E7%A7%91%E5%AD%B8%E5%AF%A6%E8%AD%89%E5%A5%BD%E8%99%95.html
+https://inari-kira-isla.github.io/mind-coffee/articles/2026-03-19_%E6%AD%A3%E5%BF%B5%E5%92%96%E5%95%A1%E9%AB%94%E9%A9%97%E5%A6%82%E4%BD%95%E7%94%A8%E4%BA%94%E6%84%9F%E5%93%81%E5%91%B3%E4%B8%80%E6%9D%AF%E5%A5%BD%E5%92%96%E5%95%A1.html
+
+## Knowledge Graph Endpoint
+https://cloudpipe-macao.vercel.app/api/faq/merchant/mind-cafe
